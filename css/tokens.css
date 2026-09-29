@@ -1,0 +1,46 @@
+/*  Breakpoints 600, 768, 900, 1200 
+600px (small tablet), 900px (tablet / sidebar
+appears), 1200px (desktop).
+For --container, padding changes at 768px*/
+:root{
+    /* colors */
+    --color-bg: #F5F0E8;
+    --color-surface: #FBF8F3;
+    --color-surface-alt: #EDE5D8;
+    --color-border: #DDD3C4;
+    --color-text: #2B2622;
+    --color-text-muted: #6F665D;
+    --color-primary: #B4583A;
+    --color-primary-hover: #9A4830;
+    --color-primary-soft: #F1DDD3;
+    --color-secondary: #5F6B47;
+    --color-secondary-soft: #E3E7D6;
+    --color-accent: #2F3C6E;
+    --color-star: #D6A13D;
+    --color-success: #4F7A45;
+    --color-error: #B23A2E;
+    --color-on-dark: #F5F0E8;
+    /* font size  */
+    --fs-hero: clamp(2.5rem, 1.955rem + 2.73vw, 4rem);
+    --fs-h1: clamp(2rem, 1.727rem + 1.36vw, 2.75rem);
+    --fs-h2: clamp(1.625rem, 1.489rem + 0.68vw, 2rem);
+    --fs-h3: clamp(1.25rem, 1.159rem + 0.45vw, 1.5rem);
+    --fs-body:1rem;
+    --fs-small:0.875rem;
+    --fs-xs:0.75rem;
+    /* spacing */
+    --space-1: 0.25rem;  
+    --space-2: 0.5rem;   
+    --space-3: 0.75rem;  
+    --space-4: 1rem;     
+    --space-5: 1.5rem;   
+    --space-6: 2rem;     
+    --space-7: 3rem;     
+    --space-8: clamp(2rem, 1.273rem + 3.64vw, 4rem);     
+    --space-9: clamp(3rem, 1.909rem + 5.45vw, 6rem);     
+    
+    --container: 77.5rem;
+    --container-padding: 1rem;
+    --header-height: 3.75rem;
+    
+}
