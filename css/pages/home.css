@@ -1,0 +1,24 @@
+#hero{
+    padding: var(--space-8);
+    border: 2px solid var(--color-border);
+    background-image: url('../../images/hero.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center; 
+}
+#hero button{
+    background-color: var(--color-primary);
+    color: var(--color-on-dark);
+    font-size: var(--fs-body);
+    padding: var(--space-3) var(--space-4);
+    border-radius: var(--space-3);
+}
+
+#hero h1{
+    font-size: var(--fs-hero);
+    color: var(--color-text);
+}
+#hero p{
+    font-size: var(--fs-h3);
+    color: var(--color-text);
+}
