@@ -43,4 +43,7 @@ For --container, padding changes at 768px*/
     --container-padding: 1rem;
     --header-height: 3.75rem;
     
+    /*Font families*/
+    --font-body: "DM Sans", sans-serif;
+    --font-heading: "Cormorant Garamond", serif;
 }
